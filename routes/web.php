@@ -9,7 +9,6 @@ use App\Http\Controllers\Admin\DestinasiController as AdminDestinasiController;
 use App\Http\Controllers\Admin\UmkmController;
 use App\Http\Controllers\Admin\PenginapanController;
 use App\Http\Controllers\Admin\FasilitasController;
-use App\Http\Controllers\Admin\GaleriGeositeController;
 use App\Http\Controllers\DestinasiController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\GaleriController as PublicGaleriController;
@@ -103,11 +102,10 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
         $totalUmkm          = DB::table('umkm')->count();
         $totalPenginapan    = DB::table('penginapan')->count();
         $totalFasilitas     = DB::table('fasilitas')->count();
-        $totalGaleriGeosite = DB::table('galeri_geosite')->count();
 
         return view('admin.dashboard', compact(
             'totalGaleri', 'totalBerita', 'totalInformasi', 'totalDestinasi',
-            'totalUmkm', 'totalPenginapan', 'totalFasilitas', 'totalGaleriGeosite'
+            'totalUmkm', 'totalPenginapan', 'totalFasilitas',
         ));
     })->name('admin.dashboard');
 
@@ -118,7 +116,6 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::resource('umkm', UmkmController::class)->names('admin.umkm');
     Route::resource('penginapan', PenginapanController::class)->names('admin.penginapan');
     Route::resource('fasilitas', FasilitasController::class)->names('admin.fasilitas');
-    Route::resource('galeri-geosite', GaleriGeositeController::class)->names('admin.galeri-geosite');
     Route::post('galeri/toggle-status/{id}', [GaleriController::class, 'toggleStatus'])->name('admin.galeri.toggle-status');
 
 

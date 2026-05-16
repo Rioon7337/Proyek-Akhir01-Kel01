@@ -28,7 +28,6 @@
             <a href="#umkm" class="nav-link">UMKM</a>
             <a href="#penginapan" class="nav-link">Penginapan</a>
             <a href="#fasilitas" class="nav-link">Fasilitas</a>
-            <a href="#galeri" class="nav-link">Galeri</a>
             <a href="#lokasi" class="nav-link">Lokasi</a>
         </div>
         <div class="hamburger" id="hamburger">
@@ -192,35 +191,7 @@
     </div>
 </section>
 
-<!-- GALERI -->
-<section id="galeri" class="section">
-    <div class="container">
-        <div class="section-title">
-            <h2>Galeri Tomok</h2>
-            <div class="divider"></div>
-            <p>Keindahan alam tomok yang memukau dalam setiap musim</p>
-        </div>
-        @if($galeriGeosite->count() > 0)
-        <div class="galeri-tabs">
-            @foreach($kategoriGaleri as $idx => $kat)
-            <button class="tab-btn {{ $loop->first ? 'active' : '' }}" data-tab="galeri-tab-{{ $idx }}">{{ $kat }}</button>
-            @endforeach
-        </div>
-        <div class="galeri-grid" id="galeriGrid">
-            @foreach($galeriGeosite as $foto)
-            @php $tabIdx = $kategoriGaleri->search($foto->kategori); @endphp
-            <div class="galeri-item galeri-tab-{{ $tabIdx }}"@if($tabIdx !== 0) style="display:none"@endif>
-                <img src="{{ $foto->gambar && !str_starts_with($foto->gambar, 'data:') ? asset('storage/' . $foto->gambar) : $foto->gambar }}" alt="{{ $foto->judul }}" loading="lazy">
-            </div>
-            @endforeach
-        </div>
-        @else
-        <div style="text-align:center;padding:2rem;color:#888;">
-            <p>Belum ada foto galeri untuk geosite ini.</p>
-        </div>
-        @endif
-    </div>
-</section>
+
 
 <!-- LOKASI -->
 <section id="lokasi" class="section bg-light">

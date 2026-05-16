@@ -47,12 +47,7 @@
             <div class="stat-label">Total Fasilitas</div>
         </div>
     </div>
-    <div class="col-6 col-md-3">
-        <div class="stat-card" style="border-left-color: #ec4899;">
-            <div class="stat-number">{{ $totalGaleriGeosite ?? 0 }}</div>
-            <div class="stat-label">Galeri Geosite</div>
-        </div>
-    </div>
+    
 </div>
 
 <!-- Recent News -->
@@ -86,7 +81,6 @@
     <a href="{{ route('admin.umkm.create') }}" class="action-btn"><i class="fas fa-plus-circle"></i> UMKM</a>
     <a href="{{ route('admin.penginapan.create') }}" class="action-btn"><i class="fas fa-plus-circle"></i> Penginapan</a>
     <a href="{{ route('admin.fasilitas.create') }}" class="action-btn"><i class="fas fa-plus-circle"></i> Fasilitas</a>
-    <a href="{{ route('admin.galeri-geosite.create') }}" class="action-btn"><i class="fas fa-plus-circle"></i> Galeri Geosite</a>
     <a href="{{ url('/') }}" target="_blank" class="action-btn"><i class="fas fa-globe"></i> Website</a>
 </div>
 @endsection

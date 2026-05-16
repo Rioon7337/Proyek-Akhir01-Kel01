@@ -332,9 +332,6 @@
             <a href="{{ route('admin.fasilitas.index') }}" class="{{ request()->routeIs('admin.fasilitas.*') ? 'active' : '' }}">
                 <i class="fas fa-concierge-bell"></i> Fasilitas
             </a>
-            <a href="{{ route('admin.galeri-geosite.index') }}" class="{{ request()->routeIs('admin.galeri-geosite.*') ? 'active' : '' }}">
-                <i class="fas fa-mountain"></i> Galeri Geosite
-            </a>
         </div>
     </div>
     
