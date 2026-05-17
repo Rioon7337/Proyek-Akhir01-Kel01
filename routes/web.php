@@ -14,7 +14,6 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\GaleriController as PublicGaleriController;
 use App\Http\Controllers\GeositeController;
 use App\Http\Controllers\InformasiController as PublicInformasiController;
-use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\KontakController;
 // ==================== FRONTEND ROUTES ====================
 
@@ -34,25 +33,14 @@ Route::get('/informasi', [PublicInformasiController::class, 'index'])->name('inf
 // Galeri Publik
 Route::get('/galeri', [PublicGaleriController::class, 'index'])->name('galeri');
 
-// Detail Galeri
-Route::get('/galeri/{slug}', function ($slug) {
-    $galeri = App\Models\Galeri::where('slug', $slug)->firstOrFail();
-    $galeri->increment('views');
-    return view('pages.galeri-detail', compact('galeri'));
-})->name('galeri.detail');
+// Detail Galeri (pakai ID karena galeri tidak punya kolom slug)
+Route::get('/galeri/{id}', [PublicGaleriController::class, 'show'])->name('galeri.detail');
 
 // Berita Publik
-Route::get('/berita', function () {
-    $berita = App\Models\Berita::where('status', true)->latest()->paginate(9);
-    return view('pages.berita', compact('berita'));
-})->name('berita');
+Route::get('/berita', [App\Http\Controllers\BeritaController::class, 'index'])->name('berita');
 
 // Detail Berita
-Route::get('/berita/{slug}', function ($slug) {
-    $berita = App\Models\Berita::where('slug', $slug)->where('status', true)->firstOrFail();
-    $berita->increment('views');
-    return view('pages.berita-detail', compact('berita'));
-})->name('berita.detail');
+Route::get('/berita/{slug}', [App\Http\Controllers\BeritaController::class, 'show'])->name('berita.detail');
 
 // UMKM
 Route::get('/umkm', [HomeController::class, 'umkm'])->name('umkm');
@@ -61,18 +49,14 @@ Route::get('/umkm', [HomeController::class, 'umkm'])->name('umkm');
 Route::get('/budaya', [HomeController::class, 'budaya'])->name('budaya');
 
 // Kontak (tampilkan halaman)
-Route::get('/kontak', function () {
-    return view('pages.kontak');
-})->name('kontak');
+Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
 
 // Kontak (kirim pesan → email admin)
-Route::post('/kontak', [AuthController::class, 'kirimKontak'])->name('kontak.kirim');
-Route::post('/kontak/kirim', [KontakController::class, 'kirim'])
-    ->name('kontak.kirim');
+Route::post('/kontak', [KontakController::class, 'kirim'])->name('kontak.kirim');
 // ==================== GEOSITE ROUTES ====================
 Route::get('/geosite/tuktuk', [GeositeController::class, 'tuktuk'])->name('geosite.tuktuk');
-Route::get('/geosite/Ambarita', [GeositeController::class, 'Ambarita'])->name('geosite.Ambarita');
-Route::get('/geosite/Tomok', [GeositeController::class, 'Tomok'])->name('geosite.Tomok');
+Route::get('/geosite/ambarita', [GeositeController::class, 'ambarita'])->name('geosite.ambarita');
+Route::get('/geosite/tomok', [GeositeController::class, 'tomok'])->name('geosite.tomok');
 
 // ==================== AUTH ROUTES ====================
 Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
@@ -94,20 +78,7 @@ Route::post('/reset-password', [AuthController::class, 'resetPassword'])->name('
 // ==================== ADMIN ROUTES ====================
 Route::prefix('admin')->middleware(['auth'])->group(function () {
 
-    Route::get('/', function () {
-        $totalGaleri        = DB::table('galeri')->count();
-        $totalBerita        = DB::table('berita')->count();
-        $totalInformasi     = DB::table('informasi')->count();
-        $totalDestinasi     = DB::table('destinasis')->count();
-        $totalUmkm          = DB::table('umkm')->count();
-        $totalPenginapan    = DB::table('penginapan')->count();
-        $totalFasilitas     = DB::table('fasilitas')->count();
-
-        return view('admin.dashboard', compact(
-            'totalGaleri', 'totalBerita', 'totalInformasi', 'totalDestinasi',
-            'totalUmkm', 'totalPenginapan', 'totalFasilitas',
-        ));
-    })->name('admin.dashboard');
+    Route::get('/', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('admin.dashboard');
 
     Route::resource('galeri', GaleriController::class)->names('admin.galeri');
     Route::resource('berita', BeritaController::class)->names('admin.berita');

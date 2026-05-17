@@ -1174,7 +1174,7 @@
                     <div class="destinasi-location">Desa Ambarita, Kecamatan Simanindo, Kabupaten Samosir.</div>
                     <p class="destinasi-desc">Ambarita adalah desa wisata budaya Batak yang terkenal dengan Batu Kursi Persidangan Raja Siallagan dan rumah adat Batak Toba.
                          Tempat ini menjadi salah satu tujuan wisata sejarah dan budaya di Pulau Samosir.</p>
-                    <a href="{{ url('/geosite/Ambarita') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
+                    <a href="{{ url('/geosite/ambarita') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
             
@@ -1189,7 +1189,7 @@
                     <div class="destinasi-location">Desa Tomok, Kecamatan Simanindo, Kabupaten Samosir.</div>
                     <p class="destinasi-desc">Tomok merupakan desa wisata yang menjadi pintu masuk utama menuju Pulau Samosir melalui kapal feri dari Parapat. 
                         Desa ini terkenal dengan makam Raja Sidabutar, pertunjukan budaya Batak, serta pusat penjualan suvenir dan ulos khas Batak.</p>
-                    <a href="{{ url('/geosite/Tomok') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
+                    <a href="{{ url('/geosite/tomok') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
         </div>

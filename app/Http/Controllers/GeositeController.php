@@ -19,22 +19,20 @@ class GeositeController extends Controller
         return view('geosite.Tuk-tuk', compact('umkm', 'penginapan', 'fasilitas'));
     }
     
-    public function Ambarita()
+    public function ambarita()
     {
         $umkm = Umkm::where('geosite', 'ambarita')->where('status', true)->get();
         $penginapan = Penginapan::where('geosite', 'ambarita')->where('status', true)->get();
         $fasilitas = Fasilitas::where('geosite', 'ambarita')->where('status', true)->get();
-   
 
         return view('geosite.Ambarita', compact('umkm', 'penginapan', 'fasilitas'));
     }
     
-    public function Tomok()
+    public function tomok()
     {
         $umkm = Umkm::where('geosite', 'tomok')->where('status', true)->get();
         $penginapan = Penginapan::where('geosite', 'tomok')->where('status', true)->get();
         $fasilitas = Fasilitas::where('geosite', 'tomok')->where('status', true)->get();
-       
 
         return view('geosite.Tomok', compact('umkm', 'penginapan', 'fasilitas'));
     }

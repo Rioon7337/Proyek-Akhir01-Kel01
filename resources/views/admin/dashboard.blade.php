@@ -62,7 +62,7 @@
                 @foreach(\App\Models\Berita::latest()->limit(5)->get() as $item)
                 <tr>
                     <td>{{ Str::limit($item->judul, 30) }}</td>
-                    <td>{{ $item->tanggal_terbit ? \Carbon\Carbon::parse($item->tanggal_terbit)->format('d/m/Y') : '-' }}</td>
+                    <td>{{ $item->created_at ? \Carbon\Carbon::parse($item->created_at)->format('d/m/Y') : '-' }}</td>
                     <td>@if($item->status)<span class="badge-success badge">Publish</span>@else<span class="badge-danger badge">Draft</span>@endif</td>
                     <td><a href="{{ route('admin.berita.edit', $item->id) }}" class="btn btn-sm btn-primary">Edit</a></td>
                 </tr>

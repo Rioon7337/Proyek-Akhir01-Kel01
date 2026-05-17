@@ -8,25 +8,42 @@ use App\Mail\KontakMail;
 
 class KontakController extends Controller
 {
+    /**
+     * Tampilkan halaman kontak.
+     */
+    public function index()
+    {
+        return view('pages.kontak');
+    }
+
+    /**
+     * Kirim pesan kontak via email.
+     */
     public function kirim(Request $request)
     {
         $request->validate([
-            'nama' => 'required',
-            'email' => 'required|email',
-            'subjek' => 'required',
-            'pesan' => 'required',
+            'nama'    => 'required|string|max:100',
+            'email'   => 'required|email|max:100',
+            'telepon' => 'nullable|string|max:20',
+            'subjek'  => 'required|string|max:100',
+            'pesan'   => 'required|string|max:2000',
         ]);
 
-        Mail::to('ambaritatuktuktomokadmingeosit@gmail.com')->send(
-            new KontakMail(
-                $request->nama,
-                $request->email,
-                $request->telepon,
-                $request->subjek,
-                $request->pesan
-            )
-        );
+        try {
+            Mail::to(config('mail.from.address', 'ambaritatuktuktomokadmingeosit@gmail.com'))->send(
+                new KontakMail(
+                    $request->nama,
+                    $request->email,
+                    $request->telepon ?? '-',
+                    $request->subjek,
+                    $request->pesan
+                )
+            );
 
-        return back()->with('success', 'Pesan berhasil dikirim!');
+            return back()->with('success', 'Pesan Anda berhasil dikirim! Kami akan merespons segera.');
+        } catch (\Exception $e) {
+            return back()->withErrors(['pesan' => 'Gagal mengirim pesan: ' . $e->getMessage()])
+                         ->withInput();
+        }
     }
 }
