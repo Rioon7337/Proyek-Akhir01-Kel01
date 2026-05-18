@@ -1085,7 +1085,7 @@
     
     <div class="hero-content">
         <div>
-            <div class="hero-subtitle">Global Geopark</div>
+            <div class="hero-subtitle">Global Geopark Caldera Toba</div>
             <h1 class="hero-title"> Sipinsur</h1>
             <div class="hero-divider"></div>
             <a href="#destinasi" class="hero-btn">Jelajahi Sekarang</a>
@@ -1155,54 +1155,26 @@
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">01 — GEOSITE</div>
-                    <h3>Tuktuk</h3>
-                    <div class="destinasi-location">Desa Tuktuk Siadong, Kecamatan Simanindo, Kabupaten Samosir.</div>
-                    <p class="destinasi-desc">Tuktuk adalah kawasan wisata terkenal di Pulau Samosir yang berada di tepi Danau Toba. Tempat ini banyak dikunjungi wisatawan 
-                        karena memiliki pemandangan danau yang indah, penginapan, restoran, serta suasana yang tenang dan nyaman untuk berlibur</p>
+                    <h3>Sipinsur</h3>
+                    <div class="destinasi-location">Desa Parulohan, Kecamatan Paranginan, Kabupaten Humbang Hasundutan.</div>
+                    <p class="destinasi-desc">Sipinsur adalah kawasan wisata alam terkenal di Kabupaten Humbang Hasundutan yang berada di perbukitan tepian Danau Toba.
+                        Tempat ini banyak dikunjungi wisatawan karena memiliki pemandangan Danau Toba dari ketinggian yang sangat indah, hutan pinus yang sejuk, area camping,
+                        spot foto, serta suasana yang tenang dan nyaman untuk berlibur maupun menikmati keindahan alam Kaldera Toba.
+                    </p>
                     <a href="{{ url('/geosite/tuktuk') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
-                </div>
-            </div>
-            
-            <!-- Ambarita -->
-            <div class="destinasi-item reverse" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <div class="destinasi-image">
-                    <img src="/image/Ambarita/Ambarita1.jpg" alt="Ambarita">
-                </div>
-                <div class="destinasi-content">
-                    <div class="destinasi-number">02 — GEOSITE</div>
-                    <h3>Ambarita</h3>
-                    <div class="destinasi-location">Desa Ambarita, Kecamatan Simanindo, Kabupaten Samosir.</div>
-                    <p class="destinasi-desc">Ambarita adalah desa wisata budaya Batak yang terkenal dengan Batu Kursi Persidangan Raja Siallagan dan rumah adat Batak Toba.
-                         Tempat ini menjadi salah satu tujuan wisata sejarah dan budaya di Pulau Samosir.</p>
-                    <a href="{{ url('/geosite/ambarita') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
-                </div>
-            </div>
-            
-            <!-- Tomok -->
-            <div class="destinasi-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <div class="destinasi-image">
-                    <img src="/image/Tomok/Tomok3.jpg" alt="Tomok">
-                </div>
-                <div class="destinasi-content">
-                    <div class="destinasi-number">03 — GEOSITE</div>
-                    <h3>Tomok</h3>
-                    <div class="destinasi-location">Desa Tomok, Kecamatan Simanindo, Kabupaten Samosir.</div>
-                    <p class="destinasi-desc">Tomok merupakan desa wisata yang menjadi pintu masuk utama menuju Pulau Samosir melalui kapal feri dari Parapat. 
-                        Desa ini terkenal dengan makam Raja Sidabutar, pertunjukan budaya Batak, serta pusat penjualan suvenir dan ulos khas Batak.</p>
-                    <a href="{{ url('/geosite/tomok') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- ==================== PETA LOKASI 3 DESA ==================== -->
+<!-- ==================== PETA LOKASI DESA ==================== -->
 <section class="section section-light">
     <div class="container">
         <div class="section-title" data-aos="fade-up" data-aos-duration="800">
-            <h2>Lokasi 3 Geosite</h2>
+            <h2>Lokasi Geosite</h2>
             <div class="divider"></div>
-            <p>Tuktuk · Ambarita · Tomok</p>
+            <p>Sipinsur</p>
         </div>
         
         <div class="maps-container" data-aos="zoom-in" data-aos-duration="1000">
