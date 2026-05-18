@@ -1086,7 +1086,7 @@
     <div class="hero-content">
         <div>
             <div class="hero-subtitle">Global Geopark</div>
-            <h1 class="hero-title"> Tuktuk · Ambarita · Tomok</h1>
+            <h1 class="hero-title"> Sipinsur</h1>
             <div class="hero-divider"></div>
             <a href="#destinasi" class="hero-btn">Jelajahi Sekarang</a>
         </div>
@@ -1103,7 +1103,7 @@
     <div class="container">
         <div class="stats-grid">
             <div class="stat-item" data-aos="zoom-in" data-aos-duration="800">
-                <div class="stat-number">3</div>
+                <div class="stat-number">1</div>
                 <div class="stat-label">GEOSITES</div>
             </div>
             <div class="stat-item" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
