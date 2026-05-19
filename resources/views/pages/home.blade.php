@@ -1102,10 +1102,6 @@
 <section class="section section-white">
     <div class="container">
         <div class="stats-grid">
-            <div class="stat-item" data-aos="zoom-in" data-aos-duration="800">
-                <div class="stat-number">1</div>
-                <div class="stat-label">GEOSITES</div>
-            </div>
             <div class="stat-item" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
                 <div class="stat-number">74.000</div>
                 <div class="stat-label">TAHUN SEJARAH</div>
@@ -1181,7 +1177,7 @@
 
             <!-- MAP UTAMA -->
    <iframe
-                    src="https://maps.google.com/maps?q=Pulau+Samosir,+Sumatera+Utara&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                    src="https://maps.google.com/maps?q=Humbang+Hasundutan,+Sumatera+Utara&t=&z=12&ie=UTF8&iwloc=&output=embed"
                     width="100%"
                     height="450"
                     style="border:0;"
@@ -1191,28 +1187,12 @@
 
             <div class="maps-info">
                 <div class="maps-locations">
-    
-                    <!-- TUKTUK -->
+                    <!-- Sipinsur -->
                     <div class="maps-location-item" 
-                         onclick="window.open('https://www.google.com/maps/search/?api=1&query=Tuktuk+Siadong+Samosir', '_blank')">
+                         onclick="window.open('https://www.google.com/maps/search/?api=1&query=Geosite+Sipinsur', '_blank')">
                         <i class="fas fa-location-dot"></i>
-                        <span>Tuktuk</span>
+                        <span>Sipinsur</span>
                     </div>
-
-                    <!-- AMBARITA -->
-                    <div class="maps-location-item" 
-                         onclick="window.open('https://www.google.com/maps/search/?api=1&query=Ambarita+Samosir', '_blank')">
-                        <i class="fas fa-location-dot"></i>
-                        <span>Ambarita</span>
-                    </div>
-
-                    <!-- TOMOK -->
-                    <div class="maps-location-item" 
-                         onclick="window.open('https://www.google.com/maps/search/?api=1&query=Tomok+Samosir', '_blank')">
-                        <i class="fas fa-location-dot"></i>
-                        <span>Tomok</span>
-                    </div>
-
                 </div>
 
                 <div class="maps-note">
