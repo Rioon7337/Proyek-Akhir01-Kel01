@@ -50,7 +50,7 @@
 <!-- HERO -->
 <section class="hero" style="background-image: url('/image/tuktuk/Tuktuk3.jpg');">
     <div>
-        <h1 class="hero-title">T U K T U K</h1>
+        <h1 class="hero-title">S I P I N S U R</h1>
         <p class="hero-subtitle">Pulau Samosir · Danau Toba</p>
     </div>
 </section>
