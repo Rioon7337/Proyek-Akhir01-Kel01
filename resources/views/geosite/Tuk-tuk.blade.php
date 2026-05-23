@@ -51,7 +51,7 @@
 <section class="hero" style="background-image: url('/image/tuktuk/Tuktuk3.jpg');">
     <div>
         <h1 class="hero-title">S I P I N S U R</h1>
-        <p class="hero-subtitle">Pulau Samosir · Danau Toba</p>
+        <p class="hero-subtitle">Humbang Hasundutan · Sumatera Utara</p>
     </div>
 </section>
 
