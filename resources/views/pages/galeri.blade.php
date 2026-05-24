@@ -301,7 +301,7 @@ body{
     <div class="hero-overlay"></div>
 
    <img 
-    src="{{ asset('image/tuktuk/Tuktuk1.jpg') }}"
+    src="{{ asset('image/Sipinsur/sipinsur1.jpg') }}"
     alt="Danau Toba">
 
     <div class="hero-content">

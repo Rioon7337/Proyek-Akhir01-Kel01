@@ -8,7 +8,7 @@
     .sejarah-hero {
         height: 55vh;
         min-height: 360px;
-        background: linear-gradient(rgba(0, 51, 102, 0.6), rgba(0, 102, 153, 0.4)), url('/image/Tomok/Tomok1.jpg') center/cover no-repeat;
+        background: linear-gradient(rgba(0, 51, 102, 0.6), rgba(0, 102, 153, 0.4)), url('/image/Sipinsur/sipinsur.jpg') center/cover no-repeat;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -151,7 +151,7 @@
             {{-- Konten statis sementara kalau database kosong --}}
             <div class="sejarah-item" data-aos="fade-right">
                 <div class="sejarah-image">
-                    <img src="/image/sipinsur/sejarah1.jpg" alt="Asal Usul Sipinsur">
+                    <img src="/image/tuktuk/slide1.jpg" alt="Asal Usul Sipinsur">
                 </div>
                 <div class="sejarah-text">
                     <h3>Asal Usul Nama Sipinsur</h3>
@@ -160,7 +160,7 @@
             </div>
             <div class="sejarah-item reverse" data-aos="fade-left">
                 <div class="sejarah-image">
-                    <img src="/image/sipinsur/sejarah2.jpg" alt="Sipinsur dan Geopark">
+                    <img src="/image/tuktuk/slide2.jpg" alt="Sipinsur dan Geopark">
                 </div>
                 <div class="sejarah-text">
                     <h3>Sipinsur sebagai Bagian Geopark Kaldera Toba</h3>
@@ -169,7 +169,7 @@
             </div>
             <div class="sejarah-item" data-aos="fade-right">
                 <div class="sejarah-image">
-                    <img src="/image/sipinsur/sejarah3.jpg" alt="Keindahan Alam Sipinsur">
+                    <img src="/image/Sipinsur/sipinsur.jpg" alt="Keindahan Alam Sipinsur">
                 </div>
                 <div class="sejarah-text">
                     <h3>Keindahan Alam Sipinsur</h3>

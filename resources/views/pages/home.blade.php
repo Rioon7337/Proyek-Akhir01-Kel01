@@ -1132,7 +1132,7 @@
                 <p>Kawasan ini dikelilingi kekayaan budaya Batak yang autentik, hutan pinus yang asri, serta keramahan masyarakat lokal. Geosite Sipinsur merupakan bagian dari Geopark Kaldera Toba yang telah diakui UNESCO sebagai Global Geopark.</p>
             </div>
             <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
-                <img src="/image/Ambarita/Ambarita3.jpg" alt="Danau Toba">
+                <img src="/image/Tuktuk/slide1.jpg" alt="Danau Toba">
             </div>
         </div>
     </div>
@@ -1151,7 +1151,7 @@
             <!-- PANORAMA SIPINSUR -->
             <div class="destinasi-item" data-aos="fade-up" data-aos-duration="1000">
                 <div class="destinasi-image">
-                    <img src="/image/Tuktuk/Tuktuk3.jpg" alt="tuktuk">
+                    <img src="/image/Tuktuk/panorama-sipinsur.jpg" alt="tuktuk">
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">01 — WISATA ALAM</div>
@@ -1165,7 +1165,7 @@
             <!-- HUTAN PINUS -->
             <div class="destinasi-item reverse" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <div class="destinasi-image">
-                    <img src="/image/sipinsur/hutan-pinus.jpg" alt="Hutan Pinus Sipinsur">
+                    <img src="/image/Sipinsur/hutan-pinus.jpg" alt="Hutan Pinus Sipinsur">
                 </div>
                 <div class="destinasi-content">
                     <div class="destinasi-number">02 — WISATA ALAM</div>
