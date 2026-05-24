@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
-use App\Models\Admin;
+
 class Berita extends Model
 {
     protected $table = 'berita';
@@ -14,11 +14,9 @@ class Berita extends Model
         'slug',
         'konten',
         'gambar',
-        'sumber_gambar',
         'penulis',
         'views',
-        'status',
-        'admin_id',
+        'status'
     ];
 
     protected $casts = [
@@ -37,9 +35,5 @@ class Berita extends Model
         static::updating(function ($berita) {
             $berita->slug = Str::slug($berita->judul);
         });
-    }
-     public function admin()
-    {
-        return $this->belongsTo(Admin::class);
     }
 }

@@ -121,8 +121,8 @@
 <!-- HERO -->
 <section class="sejarah-hero">
     <div data-aos="fade-up">
-        <h1>Sejarah Caldera Toba</h1>
-        <p>Warisan Geologi Kelas Dunia</p>
+        <h1>Sejarah Geosite Sipinsur</h1>
+        <p>Permata Geopark Kaldera Toba</p>
     </div>
 </section>
 
@@ -130,7 +130,7 @@
 <section class="section">
     <div class="container">
         <div class="section-title" data-aos="fade-up">
-            <h2>Terbentuknya Danau Toba</h2>
+            <h2>Sejarah & Asal Usul Sipinsur</h2>
             <div class="divider"></div>
         </div>
         <div class="sejarah-grid">
@@ -148,62 +148,97 @@
                 </div>
             </div>
             @empty
-            <div class="text-center py-5">
-                <p>Belum ada data sejarah.</p>
+            {{-- Konten statis sementara kalau database kosong --}}
+            <div class="sejarah-item" data-aos="fade-right">
+                <div class="sejarah-image">
+                    <img src="/image/sipinsur/sejarah1.jpg" alt="Asal Usul Sipinsur">
+                </div>
+                <div class="sejarah-text">
+                    <h3>Asal Usul Nama Sipinsur</h3>
+                    <p>Sipinsur berasal dari kata dalam bahasa Batak Toba. Kawasan ini secara turun-temurun dikenal sebagai tempat yang memiliki pemandangan indah ke arah Danau Toba dan Pulau Samosir. Masyarakat setempat telah lama menjadikan kawasan ini sebagai bagian dari kehidupan budaya dan tradisi mereka.</p>
+                </div>
+            </div>
+            <div class="sejarah-item reverse" data-aos="fade-left">
+                <div class="sejarah-image">
+                    <img src="/image/sipinsur/sejarah2.jpg" alt="Sipinsur dan Geopark">
+                </div>
+                <div class="sejarah-text">
+                    <h3>Sipinsur sebagai Bagian Geopark Kaldera Toba</h3>
+                    <p>Geosite Sipinsur merupakan salah satu dari geosite yang termasuk dalam kawasan Geopark Kaldera Toba. Kawasan Geopark ini resmi diakui oleh UNESCO sebagai UNESCO Global Geopark pada tahun 2020, menjadikan Sipinsur bagian dari warisan geologi berkelas dunia.</p>
+                </div>
+            </div>
+            <div class="sejarah-item" data-aos="fade-right">
+                <div class="sejarah-image">
+                    <img src="/image/sipinsur/sejarah3.jpg" alt="Keindahan Alam Sipinsur">
+                </div>
+                <div class="sejarah-text">
+                    <h3>Keindahan Alam Sipinsur</h3>
+                    <p>Terletak di ketinggian 1.297 mdpl, Sipinsur menawarkan panorama Danau Toba dan Pulau Samosir yang memukau. Dikelilingi hutan pinus yang asri, kawasan ini menjadi salah satu titik pandang (viewpoint) terbaik di seluruh kawasan Geopark Kaldera Toba yang kini menjadi destinasi wisata unggulan Sumatera Utara.</p>
+                </div>
             </div>
             @endforelse
         </div>
     </div>
 </section>
 
-<!-- TIMELINE 4 LETUSAN (STATIS) -->
+<!-- TIMELINE PERKEMBANGAN SIPINSUR -->
 <section class="section bg-light">
     <div class="container">
         <div class="section-title" data-aos="fade-up">
-            <h2>4 Periode Letusan</h2>
+            <h2>Perjalanan Sejarah Sipinsur</h2>
             <div class="divider"></div>
-            <p>Proses pembentukan Kaldera Toba melalui 4 letusan besar</p>
+            <p>Dari kawasan budaya lokal hingga geosite bertaraf internasional</p>
         </div>
         <div class="timeline">
             <div class="timeline-item" data-aos="fade-up">
-                <div class="timeline-year">1,2 Juta Tahun</div>
-                <div class="timeline-title">Letusan Pertama</div>
+                <div class="timeline-year">74.000 SM</div>
+                <div class="timeline-title">Letusan Supervolcano</div>
+                <div class="timeline-desc">Letusan dahsyat membentuk Kaldera Toba, cikal bakal terbentuknya Danau Toba yang kita kenal sekarang</div>
             </div>
             <div class="timeline-item" data-aos="fade-up" data-aos-delay="50">
-                <div class="timeline-year">840.000 Tahun</div>
-                <div class="timeline-title">Letusan Kedua</div>
+                <div class="timeline-year">Abad ke-19</div>
+                <div class="timeline-title">Hunian Masyarakat Batak</div>
+                <div class="timeline-desc">Masyarakat Batak Toba mulai mendiami kawasan sekitar Sipinsur dan menjadikannya bagian dari kehidupan adat budaya</div>
             </div>
             <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
-                <div class="timeline-year">450.000 Tahun</div>
-                <div class="timeline-title">Letusan Ketiga</div>
+                <div class="timeline-year">2020</div>
+                <div class="timeline-title">UNESCO Global Geopark</div>
+                <div class="timeline-desc">Geopark Kaldera Toba termasuk Sipinsur resmi diakui UNESCO sebagai Global Geopark</div>
             </div>
             <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
-                <div class="timeline-year">74.000 Tahun</div>
-                <div class="timeline-title">Letusan Keempat</div>
+                <div class="timeline-year">Kini</div>
+                <div class="timeline-title">Destinasi Wisata Unggulan</div>
+                <div class="timeline-desc">Sipinsur berkembang menjadi destinasi wisata alam dan budaya unggulan di Humbang Hasundutan</div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- FAKTA UNIK (STATIS) -->
+<!-- FAKTA UNIK SIPINSUR -->
 <section class="section">
     <div class="container">
         <div class="section-title" data-aos="fade-up">
-            <h2>Fakta Unik Danau Toba</h2>
+            <h2>Fakta Unik Sipinsur</h2>
             <div class="divider"></div>
         </div>
         <div class="fakta-grid">
             <div class="fakta-card" data-aos="fade-up">
-                <div class="fakta-number">#1</div>
-                <div class="fakta-title">Danau Vulkanik Terbesar</div>
+                <div class="fakta-icon">🏔️</div>
+                <div class="fakta-number">1.297</div>
+                <div class="fakta-title">Meter di Atas Laut</div>
+                <div class="fakta-desc">Ketinggian Sipinsur menjadikannya salah satu viewpoint terbaik untuk melihat Danau Toba</div>
             </div>
             <div class="fakta-card" data-aos="fade-up" data-aos-delay="50">
-                <div class="fakta-number">#2</div>
-                <div class="fakta-title">Pulau di Tengah Danau</div>
+                <div class="fakta-icon">🌍</div>
+                <div class="fakta-number">2020</div>
+                <div class="fakta-title">UNESCO Global Geopark</div>
+                <div class="fakta-desc">Bagian dari Geopark Kaldera Toba yang diakui UNESCO sebagai warisan geologi dunia</div>
             </div>
             <div class="fakta-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="fakta-number">#3</div>
-                <div class="fakta-title">UNESCO Global Geopark</div>
+                <div class="fakta-icon">🌲</div>
+                <div class="fakta-number">20+</div>
+                <div class="fakta-title">UMKM Lokal</div>
+                <div class="fakta-desc">Pelaku usaha lokal yang menjual produk khas Batak di sekitar kawasan Geosite Sipinsur</div>
             </div>
         </div>
     </div>
@@ -213,9 +248,9 @@
 <section class="cta-section">
     <div class="container">
         <div class="cta-content" data-aos="fade-up">
-            <h3>Jelajahi Geosite Lainnya</h3>
+            <h3>Jelajahi Geosite Sipinsur</h3>
             <div class="divider"></div>
-            <p>Temukan keajaiban geologi lainnya di Geopark Danau Toba</p>
+            <p>Temukan keindahan alam dan kekayaan budaya Batak di Geosite Sipinsur</p>
             <a href="{{ url('/') }}" class="cta-btn">Kembali ke Beranda</a>
         </div>
     </div>

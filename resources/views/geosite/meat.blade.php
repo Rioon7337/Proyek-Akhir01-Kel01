@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tuktuk - Geosite Danau Toba</title>
+    <title>Meat - Geosite Danau Toba</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/tuktuk.css">
+    <link rel="stylesheet" href="/css/meat.css">
 </head>
 <body>
 
@@ -28,6 +28,7 @@
             <a href="#umkm" class="nav-link">UMKM</a>
             <a href="#penginapan" class="nav-link">Penginapan</a>
             <a href="#fasilitas" class="nav-link">Fasilitas</a>
+            <a href="#galeri" class="nav-link">Galeri</a>
             <a href="#lokasi" class="nav-link">Lokasi</a>
         </div>
         <div class="hamburger" id="hamburger">
@@ -48,10 +49,10 @@
 </div>
 
 <!-- HERO -->
-<section class="hero" style="background-image: url('/image/tuktuk/Tuktuk3.jpg');">
+<section class="hero">
     <div>
-        <h1 class="hero-title">S I P I N S U R</h1>
-        <p class="hero-subtitle">Humbang Hasundutan · Sumatera Utara</p>
+        <h1 class="hero-title">M E A T</h1>
+        <p class="hero-subtitle">Pulau Sibandang · Danau Toba</p>
     </div>
 </section>
 
@@ -64,29 +65,24 @@
             <p>Warisan budaya Batak yang autentik dan masih hidup</p>
         </div>
         <div class="sejarah-item">
-            <div class="sejarah-image"><img src="/image/tuktuk/slide2.jpg" alt="Desa tuktuk"></div>
+            <div class="sejarah-image"><img src="/image/meat/sejarah1.jpg" alt="Desa Meat"></div>
             <div class="sejarah-text">
-                <h3>Sejarah Tuktuk</h3>
-                <p>Tuktuk Siadong merupakan kawasan wisata yang berada di Pulau Samosir, di tengah Danau Toba. Dahulu daerah ini merupakan perkampungan masyarakat Batak Toba yang 
-                    hidup dari pertanian dan perikanan. Seiring berkembangnya pariwisata Danau Toba, Tuktuk mulai dikenal sebagai pusat wisata dan penginapan yang ramai dikunjungi wisatawan.</p>
+                <h3>Desa Meat - Jantung Budaya Batak</h3>
+                <p>Meat adalah salah satu desa bersejarah di Kecamatan Balige, Kabupaten Toba, Provinsi Sumatra Utara. Terletak di pinggiran Pulau Sibandang di tengah Danau Toba, desa ini menjadi pusat pelestarian budaya Batak yang otentik. Dengan tradisi turun-temurun, masyarakat Meat tetap menjaga identitas budaya mereka sambil membuka pintu bagi wisatawan untuk mengenal kekayaan warisan leluhur.</p>
             </div>
         </div>
         <div class="sejarah-item reverse">
-            <div class="sejarah-image"><img src="/image/tuktuk/Tuktuk8.jpg" alt="Tradisi Batak"></div>
+            <div class="sejarah-image"><img src="/image/meat/sejarah2.jpg" alt="Tradisi Batak"></div>
             <div class="sejarah-text">
-                <h3>Budaya Tuktuk</h3>
-                <p>Budaya di Tuktuk Siadong masih kental dengan tradisi Batak Toba, seperti tarian tortor, musik gondang, serta penggunaan kain ulos dalam acara adat.
-                     Kawasan ini juga dikenal dengan rumah adat Batak berukiran gorga dan berbagai kerajinan tradisional seperti ukiran kayu, patung, serta topeng budaya yang banyak dijumpai di galeri seni dan tempat wisata budaya. 
-                    Kehidupan masyarakat yang ramah membuat budaya lokal tetap hidup berdampingan dengan perkembangan pariwisata</p>
+                <h3>Tradisi Hidup yang Diwariskan</h3>
+                <p>Hingga kini, masyarakat Meat tetap menjaga tradisi leluhur dengan penuh dedikasi. Upacara adat yang sakral, tarian Tortor yang penuh makna filosofis, pembuatan Ulos (kain tenun tradisional) dengan motif unik, dan musik Gondang yang merdu masih menjadi bagian integral kehidupan sehari-hari. Setiap tradisi ini bukan sekadar ritual, tetapi representasi nilai-nilai luhur yang diajarkan turun-temurun oleh para leluhur.</p>
             </div>
         </div>
         <div class="sejarah-item">
-            <div class="sejarah-image"><img src="/image/tuktuk/slide1.jpg" alt="Wisata Budaya"></div>
+            <div class="sejarah-image"><img src="/image/meat/sejarah3.jpg" alt="Wisata Budaya"></div>
             <div class="sejarah-text">
-                <h3>Daya Tarik Wisata Tuktuk</h3>
-                <p>Tuktuk terkenal dengan pemandangan Danau Toba yang indah dan suasana yang tenang. Di kawasan ini 
-                    terdapat berbagai penginapan, restoran, dan tempat bersantai di tepi danau. Wisatawan juga dapat menikmati
-                     kegiatan seperti bersepeda, berenang, berkeliling danau, hingga menikmati matahari terbenam.</p>
+                <h3>Destinasi Wisata Budaya Unggulan</h3>
+                <p>Budaya dan kearifan lokal yang masih terjaga dengan baik telah menjadikan Meat sebagai destinasi wisata budaya yang paling menarik di kawasan Geopark Danau Toba. Pengunjung tidak hanya dapat menikmati keindahan alam Danau Toba yang memukau, tetapi juga merasakan autentisitas kehidupan budaya Batak secara langsung, berinteraksi dengan masyarakat lokal, dan belajar tentang filosofi hidup yang tersimpan dalam setiap tradisi mereka.</p>
             </div>
         </div>
     </div>
@@ -98,30 +94,36 @@
         <div class="section-title">
             <h2>UMKM Lokal</h2>
             <div class="divider"></div>
-            <p>Produk autentik dan berkualitas dari pengrajin lokal tuktuk</p>
+            <p>Produk autentik dan berkualitas dari pengrajin lokal Meat</p>
         </div>
         <div class="grid-3">
-            @forelse($umkm as $item)
             <div class="card">
-                @if($item->gambar)
-                <img src="{{ $item->gambar && !str_starts_with($item->gambar, 'data:') ? asset('storage/' . $item->gambar) : $item->gambar }}" class="card-img" alt="{{ $item->nama }}">
-                @endif
+                <img src="/image/meat/umkm-ulos.jpg" class="card-img" alt="Tenun Ulos">
                 <div class="card-content">
-                    <h3>{{ $item->nama }}</h3>
-                    <p>{{ $item->deskripsi }}</p>
-                    @if($item->lokasi)
-                    <div class="card-location">📍 {{ $item->lokasi }}</div>
-                    @endif
-                    @if($item->kontak)
-                    <div class="card-contact">📞 {{ $item->kontak }}</div>
-                    @endif
+                    <h3>Tenun Ulos Batak</h3>
+                    <p>Kain tenun tradisional dengan motif khas Batak yang penuh makna. Setiap motif menceritakan kisah dan filosofi kehidupan. Diproduksi dengan teknik tenun tradisional yang telah disempurnakan turun-temurun.</p>
+                    <div class="card-location">📍 Desa Meat</div>
+                    <div class="card-contact">📞 Hubungi pengrajin lokal</div>
                 </div>
             </div>
-            @empty
-            <div style="grid-column:1/-1;text-align:center;padding:2rem;color:#888;">
-                <p>Belum ada data UMKM untuk geosite ini.</p>
+            <div class="card">
+                <img src="/image/meat/umkm-anyaman.jpg" class="card-img" alt="Anyaman Bambu">
+                <div class="card-content">
+                    <h3>Anyaman Bambu & Rotan</h3>
+                    <p>Kerajinan tangan berkualitas tinggi dari bahan bambu dan rotan pilihan. Menghasilkan berbagai produk mulai dari hiasan rumah, keranjang, hingga furnitur dengan desain modern yang mempertahankan nilai tradisional.</p>
+                    <div class="card-location">📍 Desa Meat</div>
+                    <div class="card-contact">📞 Hubungi pengrajin lokal</div>
+                </div>
             </div>
-            @endforelse
+            <div class="card">
+                <img src="/image/meat/umkm-madu.jpg" class="card-img" alt="Madu Hutan">
+                <div class="card-content">
+                    <h3>Madu Hutan Murni</h3>
+                    <p>Madu alami premium dari hutan sekitar dengan kualitas terbaik. Dipanen secara tradisional untuk menjaga nutrisi dan kemurniannya. Kaya akan manfaat kesehatan dan rasa alami yang autentik.</p>
+                    <div class="card-location">📍 Kawasan Hutan Toba</div>
+                    <div class="card-contact">📞 Hubungi penghasil madu</div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -135,27 +137,33 @@
             <p>Pilihan tempat menginap dengan nuansa budaya Batak yang autentik</p>
         </div>
         <div class="grid-3">
-            @forelse($penginapan as $item)
             <div class="card">
-                @if($item->gambar)
-                <img src="{{ $item->gambar && !str_starts_with($item->gambar, 'data:') ? asset('storage/' . $item->gambar) : $item->gambar }}" class="card-img" alt="{{ $item->nama }}">
-                @endif
+                <img src="/image/meat/homestay.jpg" class="card-img" alt="Homestay Desa Meat">
                 <div class="card-content">
-                    <h3>{{ $item->nama }}</h3>
-                    <p>{{ $item->deskripsi }}</p>
-                    @if($item->harga)
-                    <div class="card-price">💰 {{ $item->harga }}</div>
-                    @endif
-                    @if($item->kontak)
-                    <div class="card-contact">📞 {{ $item->kontak }}</div>
-                    @endif
+                    <h3>Homestay Desa Meat</h3>
+                    <p>Pengalaman menginap di rumah adat Batak yang asli. Rasakan kehangatan keluarga lokal, nikmati makanan tradisional, dan belajar tentang kehidupan sehari-hari masyarakat Batak secara langsung.</p>
+                    <div class="card-price">💰 Mulai dari Rp 150.000 / malam</div>
+                    <div class="card-contact">📞 Hubungi pengelola</div>
                 </div>
             </div>
-            @empty
-            <div style="grid-column:1/-1;text-align:center;padding:2rem;color:#888;">
-                <p>Belum ada data penginapan untuk geosite ini.</p>
+            <div class="card">
+                <img src="/image/meat/lakeview.jpg" class="card-img" alt="Sibandang Lake View">
+                <div class="card-content">
+                    <h3>Sibandang Lake View</h3>
+                    <p>Resort dengan pemandangan langsung ke Danau Toba yang menakjubkan. Fasilitas modern dengan sentuhan desain tradisional. Nikmati sunset yang indah dari balkon kamar Anda sambil menikmati kesegaran udara danau.</p>
+                    <div class="card-price">💰 Mulai dari Rp 250.000 / malam</div>
+                    <div class="card-contact">📞 Hubungi reservasi</div>
+                </div>
             </div>
-            @endforelse
+            <div class="card">
+                <img src="/image/meat/lodge.jpg" class="card-img" alt="Meat Traditional Lodge">
+                <div class="card-content">
+                    <h3>Meat Traditional Lodge</h3>
+                    <p>Penginapan dengan arsitektur tradisional Batak namun dilengkapi dengan fasilitas modern lengkap. Lokasi strategis dengan akses mudah ke semua tempat wisata utama dan spot foto terbaik.</p>
+                    <div class="card-price">💰 Mulai dari Rp 200.000 / malam</div>
+                    <div class="card-contact">📞 Hubungi pengelola</div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -169,24 +177,75 @@
             <p>Berbagai fasilitas lengkap untuk kenyamanan wisatawan</p>
         </div>
         <div class="grid-2">
-            @forelse($fasilitas as $item)
             <div class="fasilitas-item">
-                @if($item->gambar)
-                <img src="{{ $item->gambar && !str_starts_with($item->gambar, 'data:') ? asset('storage/' . $item->gambar) : $item->gambar }}" class="fasilitas-img" alt="{{ $item->nama }}">
-                @endif
+                <img src="/image/meat/fasilitas-parkir.jpg" class="fasilitas-img" alt="Area Parkir">
                 <div class="fasilitas-content">
-                    <h4>{{ $item->nama }}</h4>
-                    <p>{{ $item->deskripsi }}</p>
-                    @if($item->harga)
-                    <div class="fasilitas-price">{{ $item->harga }}</div>
-                    @endif
+                    <h4>Area Parkir</h4>
+                    <p>Parkir luas, aman, dan terjaga di dekat lokasi wisata</p>
+                    <div class="fasilitas-price">Gratis untuk pengunjung</div>
                 </div>
             </div>
-            @empty
-            <div style="grid-column:1/-1;text-align:center;padding:2rem;color:#888;">
-                <p>Belum ada data fasilitas untuk geosite ini.</p>
+            <div class="fasilitas-item">
+                <img src="/image/meat/fasilitas-toilet.jpg" class="fasilitas-img" alt="Toilet Bersih">
+                <div class="fasilitas-content">
+                    <h4>Toilet Umum</h4>
+                    <p>Toilet bersih, terawat, dan dilengkapi dengan air bersih</p>
+                    <div class="fasilitas-price">Gratis untuk pengunjung</div>
+                </div>
             </div>
-            @endforelse
+            <div class="fasilitas-item">
+                <img src="/image/meat/fasilitas-warung.jpg" class="fasilitas-img" alt="Warung Makan">
+                <div class="fasilitas-content">
+                    <h4>Warung Makan & Café</h4>
+                    <p>Menyajikan kuliner tradisional Batak dan makanan modern berkualitas</p>
+                    <div class="fasilitas-price">Mulai dari Rp 20.000</div>
+                </div>
+            </div>
+            <div class="fasilitas-item">
+                <img src="/image/meat/fasilitas-camping.jpg" class="fasilitas-img" alt="Area Camping">
+                <div class="fasilitas-content">
+                    <h4>Area Camping</h4>
+                    <p>Tempat camping dengan pemandangan langsung Danau Toba yang spektakuler</p>
+                    <div class="fasilitas-price">Mulai dari Rp 50.000</div>
+                </div>
+            </div>
+            <div class="fasilitas-item">
+                <img src="/image/meat/fasilitas-spotfoto.jpg" class="fasilitas-img" alt="Spot Foto">
+                <div class="fasilitas-content">
+                    <h4>Spot Foto Instagramable</h4>
+                    <p>Berbagai lokasi foto menarik dengan latar belakang alam yang memukau</p>
+                    <div class="fasilitas-price">Gratis untuk pengunjung</div>
+                </div>
+            </div>
+            <div class="fasilitas-item">
+                <img src="/image/meat/fasilitas-musholla.jpg" class="fasilitas-img" alt="Musholla">
+                <div class="fasilitas-content">
+                    <h4>Tempat Ibadah (Musholla)</h4>
+                    <p>Fasilitas ibadah bersih dan nyaman untuk umat Muslim</p>
+                    <div class="fasilitas-price">Gratis untuk pengunjung</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- GALERI -->
+<section id="galeri" class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Galeri Pantai</h2>
+            <div class="divider"></div>
+            <p>Keindahan alam Meat yang memukau dalam setiap musim</p>
+        </div>
+        <div class="galeri-tabs">
+            <button class="tab-btn active" data-tab="pantai1">Pantai 1</button>
+            <button class="tab-btn" data-tab="pantai2">Pantai 2</button>
+            <button class="tab-btn" data-tab="pantai3">Pantai 3</button>
+        </div>
+        <div class="galeri-grid" id="galeriGrid">
+            @for($i=1;$i<=4;$i++)<div class="galeri-item pantai1"><img src="/image/meat/pantai1-{{$i}}.jpg" alt="Pantai 1 - Foto {{$i}}" loading="lazy"></div>@endfor
+            @for($i=1;$i<=4;$i++)<div class="galeri-item pantai2" style="display:none"><img src="/image/meat/pantai2-{{$i}}.jpg" alt="Pantai 2 - Foto {{$i}}" loading="lazy"></div>@endfor
+            @for($i=1;$i<=4;$i++)<div class="galeri-item pantai3" style="display:none"><img src="/image/meat/pantai3-{{$i}}.jpg" alt="Pantai 3 - Foto {{$i}}" loading="lazy"></div>@endfor
         </div>
     </div>
 </section>
@@ -195,28 +254,29 @@
 <section id="lokasi" class="section bg-light">
     <div class="container">
         <div class="section-title">
-            <h2>Lokasi Tuktuk</h2>
+            <h2>Lokasi & Cara Mencapai</h2>
             <div class="divider"></div>
-            <p>Pusat wisata dan penginapan di Samosir</p>
+            <p>Lokasi strategis di Pulau Sibandang, mudah diakses dari Kota Balige</p>
         </div>
-
         <div class="maps-section">
             <div class="maps-container">
-                <iframe
-                    src="https://maps.google.com/maps?q=Tuktuk%20Siadong,%20Samosir,%20Sumatera%20Utara&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    width="100%"
-                    height="450"
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy">
-                </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0!2d99.0835095!3d2.3339262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302e0415b8f7da39%3A0xc6beb74287f355a5!2sBalige%2C%20Toba%20Samosir%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" allowfullscreen loading="lazy"></iframe>
             </div>
-
             <div class="rute-info">
                 <div class="rute-item">
-                    <h4>📍 Tuktuk</h4>
-                    <p>Area favorit wisatawan dengan hotel, cafe, dan restoran.</p>
-                    <span class="rute-time">Pusat wisata Samosir</span>
+                    <h4>🏍️ Dengan Motor</h4>
+                    <p>Balige → Ajibata (30m) → Ferry (20m) → Meat (15m)</p>
+                    <span class="rute-time">± 1.5 jam</span>
+                </div>
+                <div class="rute-item">
+                    <h4>🚗 Dengan Mobil</h4>
+                    <p>Balige → Ajibata (30m) → Parkir → Ferry → Transportasi lokal</p>
+                    <span class="rute-time">± 2 jam</span>
+                </div>
+                <div class="rute-item">
+                    <h4>⛴️ Ferry Schedule</h4>
+                    <p>Operasional setiap hari 06:00 - 17:00 WIB</p>
+                    <span class="rute-time">Kapasitas penuh</span>
                 </div>
             </div>
         </div>
@@ -226,9 +286,9 @@
 <!-- CTA -->
 <section class="cta">
     <div class="container">
-        <h3>Jangan Lewatkan Keindahan tuktuk</h3>
+        <h3>Jangan Lewatkan Keindahan Meat</h3>
         <div class="divider"></div>
-        <p>Rasakan pengalaman wisata budaya Batak yang autentik, nikmati keindahan alam Danau Toba yang memukau, dan ciptakan kenangan indah bersama keluarga tercinta di tuktuk</p>
+        <p>Rasakan pengalaman wisata budaya Batak yang autentik, nikmati keindahan alam Danau Toba yang memukau, dan ciptakan kenangan indah bersama keluarga tercinta di Meat</p>
         <div class="cta-buttons">
             <a href="{{ url('/') }}" class="cta-btn">Kembali ke Beranda</a>
             <a href="#penginapan" class="cta-btn cta-btn-secondary">Pesan Penginapan</a>
@@ -240,9 +300,9 @@
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-logo">
-            <img src="{{ asset('image/Logo/logobankindonesia.jpg') }}" class="footer-logo-img" alt="Bank Indonesia">
+            <img src="[GANTI_LINK_BENDERA]" class="footer-logo-img">
             <div class="footer-logo-divider"></div>
-            <img src="{{ asset('image/Logo/del.jpg') }}" class="footer-logo-img" alt="Del">
+            <img src="[GANTI_LINK_DEL]" class="footer-logo-img">
             <div class="footer-logo-divider"></div>
             <div class="footer-logo-text">
                 <h4>GEOTOBA</h4>

@@ -252,136 +252,117 @@
 <!-- HERO -->
 <section class="kontak-hero">
     <div class="container">
-        <h1 data-aos="fade-up">Hubungi Kami</h1>
-        <p data-aos="fade-up" data-aos-delay="100">Senang mendengar dari Anda</p>
+        <h1>Hubungi Kami</h1>
+        <p>Geosite Sipinsur - Danau Toba</p>
     </div>
 </section>
 
-<!-- KONTAK SECTION -->
+<!-- KONTAK -->
 <section class="kontak-section">
     <div class="container">
+
         <div class="row g-4 mb-5">
+
             <!-- ALAMAT -->
-            <div class="col-md-4" data-aos="fade-up">
+            <div class="col-md-4">
                 <div class="kontak-card">
                     <div class="kontak-icon">
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <h4>Alamat</h4>
-                    <p>Geosite Danau Toba</p>
-                    <p>Pulau Sibandang, Danau Toba</p>
+                    <p><strong>Geosite Sipinsur</strong></p>
+                    <p>Desa Pearung, Kec. Paranginan</p>
+                    <p>Kab. Humbang Hasundutan</p>
                     <p>Sumatera Utara, Indonesia</p>
                 </div>
             </div>
-            
+
             <!-- TELEPON -->
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-4">
                 <div class="kontak-card">
                     <div class="kontak-icon">
                         <i class="fas fa-phone-alt"></i>
                     </div>
-                    <h4>Telepon</h4>
-                    <p>+62 812 3456 7890</p>
-                    <p>+62 813 9876 5432</p>
-                    <p>(0622) 12345</p>
+                    <h4>Kontak</h4>
+                    <p><strong>+62 821 2345 6789</strong></p>
+                    <p>WhatsApp Aktif</p>
+                    <p>Pengelola Wisata Sipinsur</p>
                 </div>
             </div>
-            
+
             <!-- EMAIL -->
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-md-4">
                 <div class="kontak-card">
                     <div class="kontak-icon">
                         <i class="fas fa-envelope"></i>
                     </div>
                     <h4>Email</h4>
-                    <p>info@geotoba.com</p>
-                    <p>reservasi@geotoba.com</p>
-                    <p>support@geotoba.com</p>
+                    <p><strong>info@sipinsur.id</strong></p>
+                    <p>wisata@sipinsur.id</p>
                 </div>
             </div>
+
         </div>
-        
+
         <div class="row g-4">
-            <!-- FORM KONTAK -->
-            <div class="col-lg-6" data-aos="fade-right">
+
+            <!-- FORM -->
+            <div class="col-lg-6">
                 <div class="form-card">
                     <h3>Kirim Pesan</h3>
-
-                    @if(session('success'))
-                        <div class="alert alert-success d-flex align-items-center gap-2 py-2 px-3 mb-3" role="alert" style="font-size:0.85rem; border-radius:12px;">
-                            <span>✅</span> {{ session('success') }}
-                        </div>
-                    @endif
-
-                    @if($errors->any())
-                        <div class="alert alert-danger d-flex align-items-center gap-2 py-2 px-3 mb-3" role="alert" style="font-size:0.85rem; border-radius:12px;">
-                            <span>❌</span> {{ $errors->first() }}
-                        </div>
-                    @endif
-
-                    <form action="{{ route('kontak.kirim') }}" method="POST">
-                        @csrf
+                    <form>
                         <div class="mb-3">
-                            <input type="text" name="nama" class="form-control" placeholder="Nama Lengkap"
-                                   value="{{ old('nama') }}" required>
+                            <input type="text" class="form-control" placeholder="Nama Lengkap">
                         </div>
                         <div class="mb-3">
-                            <input type="email" name="email" class="form-control" placeholder="Email"
-                                   value="{{ old('email') }}" required>
+                            <input type="email" class="form-control" placeholder="Email">
                         </div>
                         <div class="mb-3">
-                            <input type="tel" name="telepon" class="form-control" placeholder="Nomor Telepon"
-                                   value="{{ old('telepon') }}">
+                            <textarea class="form-control" rows="5" placeholder="Pesan Anda"></textarea>
                         </div>
-                        <div class="mb-3">
-                            <select name="subjek" class="form-select" required>
-                                <option value="" selected disabled>-- Pilih Subjek --</option>
-                                <option value="Informasi Wisata"   {{ old('subjek')=='Informasi Wisata'   ? 'selected':'' }}>Informasi Wisata</option>
-                                <option value="Reservasi Tiket"    {{ old('subjek')=='Reservasi Tiket'    ? 'selected':'' }}>Reservasi Tiket</option>
-                                <option value="Kerjasama"          {{ old('subjek')=='Kerjasama'          ? 'selected':'' }}>Kerjasama</option>
-                                <option value="Saran & Masukan"    {{ old('subjek')=='Saran & Masukan'    ? 'selected':'' }}>Saran & Masukan</option>
-                                <option value="Lainnya"            {{ old('subjek')=='Lainnya'            ? 'selected':'' }}>Lainnya</option>
-                            </select>
-                        </div>
-                        <div class="mb-4">
-                            <textarea name="pesan" class="form-control" rows="5" placeholder="Pesan Anda..." required>{{ old('pesan') }}</textarea>
-                        </div>
-                        <button type="submit" class="btn-send">
-                            Kirim Pesan <i class="fas fa-paper-plane ms-2"></i>
-                        </button>
+                        <button class="btn-send">Kirim Pesan</button>
                     </form>
                 </div>
             </div>
-            
-            <!-- MAPS & SOSIAL -->
-            <div class="col-lg-6" data-aos="fade-left">
+
+            <!-- MAP + SOSIAL -->
+            <div class="col-lg-6">
                 <div class="map-card">
-                   <iframe
-    src="https://maps.google.com/maps?q=Pulau+Samosir,+Sumatera+Utara&t=&z=12&ie=UTF8&iwloc=&output=embed"
-    width="100%"
-    height="450"
-    style="border:0;"
-    allowfullscreen=""
-    loading="lazy">
-</iframe>
+
+                    <iframe 
+                        src="https://www.google.com/maps?q=Sipinsur&output=embed"
+                        loading="lazy">
+                    </iframe>
+
                     <div class="map-info">
-                        <h4>Ikuti Kami</h4>
+                        <h4>Info & Akomodasi Sekitar</h4>
+
                         <div class="social-icons">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                            <a href="https://www.instagram.com/labersatoba/" target="_blank" title="Labersa Toba">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/tobavillageinn/" target="_blank" title="Toba Village Inn">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/hotelniagaratoba/" target="_blank" title="Hotel Niagara">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/danautobahotel/" target="_blank" title="Danau Toba Hotel">
+                                <i class="fab fa-instagram"></i>
+                            </a>
                         </div>
+
                         <div class="jam-operasional">
                             <h5>Jam Operasional</h5>
-                            <p>Senin - Jumat: 08:00 - 17:00</p>
-                            <p>Sabtu - Minggu: 08:00 - 18:00</p>
+                            <p>Setiap Hari: 08:00 - 18:00</p>
                         </div>
                     </div>
+
                 </div>
             </div>
+
         </div>
+
     </div>
 </section>
 

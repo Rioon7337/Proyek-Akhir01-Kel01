@@ -309,7 +309,7 @@ body{
 
         <p>
             Jelajahi keindahan budaya dan wisata
-            Tuktuk, Ambarita, dan Tomok
+            Geosite Sipinsur
             di kawasan Danau Toba
         </p>
     </div>

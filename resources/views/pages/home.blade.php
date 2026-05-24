@@ -1102,6 +1102,10 @@
 <section class="section section-white">
     <div class="container">
         <div class="stats-grid">
+            <div class="stat-item" data-aos="zoom-in" data-aos-duration="800">
+                <div class="stat-number">1</div>
+                <div class="stat-label">GEOSITE</div>
+            </div>
             <div class="stat-item" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
                 <div class="stat-number">74.000</div>
                 <div class="stat-label">TAHUN SEJARAH</div>
@@ -1123,9 +1127,9 @@
     <div class="container">
         <div class="about-grid">
             <div class="about-content" data-aos="fade-right" data-aos-duration="1000">
-                <h3>Warisan Geologi Kelas Dunia</h3>
-                <p>Danau Toba, terbentuk dari letusan supervolcano 74.000 tahun lalu, adalah danau vulkanik terbesar di dunia. Diakui UNESCO sebagai Global Geopark pada tahun 2020.</p>
-                <p>Kawasan ini menyimpan nilai geologi luar biasa, keanekaragaman hayati, dan warisan budaya Batak yang autentik. </p>
+                <h3>Mengenal Geosite Sipinsur</h3>
+                <p>Sipinsur adalah salah satu geosite unggulan dalam kawasan Geopark Kaldera Toba yang terletak di Kabupaten Humbang Hasundutan, Sumatera Utara. Berada di ketinggian 1.297 mdpl, Sipinsur menawarkan panorama Danau Toba dan Pulau Samosir yang memukau.</p>
+                <p>Kawasan ini dikelilingi kekayaan budaya Batak yang autentik, hutan pinus yang asri, serta keramahan masyarakat lokal. Geosite Sipinsur merupakan bagian dari Geopark Kaldera Toba yang telah diakui UNESCO sebagai Global Geopark.</p>
             </div>
             <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
                 <img src="/image/Ambarita/Ambarita3.jpg" alt="Danau Toba">
@@ -1144,20 +1148,45 @@
         </div>
         <div class="destinasi-list">
             
-            <!-- tuktuk -->
+            <!-- PANORAMA SIPINSUR -->
             <div class="destinasi-item" data-aos="fade-up" data-aos-duration="1000">
                 <div class="destinasi-image">
                     <img src="/image/Tuktuk/Tuktuk3.jpg" alt="tuktuk">
                 </div>
                 <div class="destinasi-content">
-                    <div class="destinasi-number">01 — GEOSITE</div>
-                    <h3>Sipinsur</h3>
-                    <div class="destinasi-location">Desa Parulohan, Kecamatan Paranginan, Kabupaten Humbang Hasundutan.</div>
-                    <p class="destinasi-desc">Sipinsur adalah kawasan wisata alam terkenal di Kabupaten Humbang Hasundutan yang berada di perbukitan tepian Danau Toba.
-                        Tempat ini banyak dikunjungi wisatawan karena memiliki pemandangan Danau Toba dari ketinggian yang sangat indah, hutan pinus yang sejuk, area camping,
-                        spot foto, serta suasana yang tenang dan nyaman untuk berlibur maupun menikmati keindahan alam Kaldera Toba.
-                    </p>
-                    <a href="{{ url('/geosite/tuktuk') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
+                    <div class="destinasi-number">01 — WISATA ALAM</div>
+                    <h3>Panorama Sipinsur</h3>
+                    <div class="destinasi-location">Desa Pearung, Kecamatan Paranginan, Humbang Hasundutan</div>
+                    <p class="destinasi-desc">Nikmati pemandangan Danau Toba dan Pulau Samosir dari ketinggian 1.297 mdpl. Sipinsur menawarkan salah satu titik pandang terbaik di kawasan Geopark Kaldera Toba dengan udara sejuk khas pegunungan.</p>
+                    <a href="{{ url('/destinasi/panorama-sipinsur') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
+                </div>
+            </div>
+            
+            <!-- HUTAN PINUS -->
+            <div class="destinasi-item reverse" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="destinasi-image">
+                    <img src="/image/sipinsur/hutan-pinus.jpg" alt="Hutan Pinus Sipinsur">
+                </div>
+                <div class="destinasi-content">
+                    <div class="destinasi-number">02 — WISATA ALAM</div>
+                    <h3>Hutan Pinus Sipinsur</h3>
+                    <div class="destinasi-location">Kawasan Geosite Sipinsur, Humbang Hasundutan</div>
+                    <p class="destinasi-desc">Berjalan-jalan di antara deretan pohon pinus yang rindang dan asri. Hutan pinus Sipinsur menjadi daya tarik tersendiri bagi wisatawan yang ingin merasakan kesejukan dan ketenangan alam pegunungan Batak.</p>
+                    <a href="{{ url('/destinasi/hutan-pinus') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
+                </div>
+            </div>
+            
+            <!-- BUDAYA BATAK -->
+            <div class="destinasi-item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="destinasi-image">
+                    <img src="/image/sipinsur/budaya.jpg" alt="Budaya Batak Sipinsur">
+                </div>
+                <div class="destinasi-content">
+                    <div class="destinasi-number">03 — BUDAYA</div>
+                    <h3>Warisan Budaya Batak</h3>
+                    <div class="destinasi-location">Desa Pearung, Humbang Hasundutan</div>
+                    <p class="destinasi-desc">Kenali kekayaan budaya Batak Toba yang masih terjaga di sekitar Geosite Sipinsur. Mulai dari arsitektur rumah adat, kerajinan tangan, hingga tradisi dan adat istiadat yang diwariskan turun-temurun.</p>
+                    <a href="{{ url('/destinasi/budaya-batak') }}" class="destinasi-link">Jelajahi Lebih Lanjut →</a>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
-use App\Models\Admin;
+
 class Informasi extends Model
 {
     protected $table = 'informasi';
@@ -15,8 +15,7 @@ class Informasi extends Model
         'konten',
         'gambar',
         'urutan',
-        'status',
-        'admin_id'  
+        'status'
     ];
 
     protected $casts = [
@@ -36,8 +35,4 @@ class Informasi extends Model
             $informasi->slug = Str::slug($informasi->judul);
         });
     }
-        public function admin()
-        {
-            return $this->belongsTo(Admin::class);
-        }
 }

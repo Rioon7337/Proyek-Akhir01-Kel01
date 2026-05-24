@@ -13,7 +13,6 @@ return new class extends Migration
             $table->string('judul', 255);
             $table->string('slug', 255)->unique();
             $table->longText('konten');
-            $table->foreignId('admin_id')->nullable() ->default(1) ->constrained('admin');
             $table->longText('gambar')->nullable(); // base64
             $table->string('penulis', 100)->nullable();
             $table->integer('views')->default(0);
