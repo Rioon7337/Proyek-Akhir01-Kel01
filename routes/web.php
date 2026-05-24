@@ -22,6 +22,10 @@ Route::get('/destinasi', [DestinasiController::class, 'index'])->name('destinasi
 Route::get('/destinasi/alam', [DestinasiController::class, 'alam'])->name('destinasi.alam');
 Route::get('/destinasi/buatan', [DestinasiController::class, 'buatan'])->name('destinasi.buatan');
 Route::get('/destinasi/budaya', [DestinasiController::class, 'budaya'])->name('destinasi.budaya');
+Route::get('/destinasi/panorama-sipinsur', [DestinasiController::class, 'panoramaSipinsur'])->name('destinasi.panorama-sipinsur');
+Route::get('/destinasi/hutan-pinus', [DestinasiController::class, 'hutanPinus'])->name('destinasi.hutan-pinus');
+Route::get('/destinasi/budaya-batak', [DestinasiController::class, 'budayaBatak'])->name('destinasi.budaya-batak');
+
 
 // Informasi (Halaman Sejarah Caldera Toba)
 Route::get('/informasi', [PublicInformasiController::class, 'index'])->name('informasi');

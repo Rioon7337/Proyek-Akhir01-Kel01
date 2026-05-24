@@ -68,4 +68,19 @@ class DestinasiController extends Controller
 
         return view('destinasi.detail', compact('destinasi'));
     }
+
+    public function panoramaSipinsur()
+    {
+        return view('destinasi.panorama-sipinsur');
+    }
+
+    public function hutanPinus()
+    {
+        return view('destinasi.hutan-pinus');
+    }
+
+    public function budayaBatak()
+    {
+        return view('destinasi.budaya-batak');
+    }
 }

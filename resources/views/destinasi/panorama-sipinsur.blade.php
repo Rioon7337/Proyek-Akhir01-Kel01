@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Geosite Liang Sipege - Geopark Danau Toba')
+@section('title', 'Panorama Sipinsur - Geosite Danau Toba')
 
 @section('content')
 
@@ -8,7 +8,7 @@
     .sejarah-hero {
         height: 55vh;
         min-height: 360px;
-        background: linear-gradient(rgba(0, 51, 102, 0.6), rgba(0, 102, 153, 0.4)), url('/image/Tuktuk/destinasi-alam.jpg') center/cover no-repeat;
+        background: linear-gradient(rgba(0, 51, 102, 0.6), rgba(0, 102, 153, 0.4)), url('/image/Tuktuk/Tuktuk3.jpg') center/cover no-repeat;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -127,8 +127,8 @@
 <!-- HERO -->
 <section class="sejarah-hero">
     <div data-aos="fade-up">
-        <h1>Geosite Liang Sipege</h1>
-        <p>Gua Alam Spektakuler Kaldera Toba</p>
+        <h1>Panorama Sipinsur</h1>
+        <p>Titik Pandang Terbaik Menikmati Keindahan Kaldera Toba</p>
     </div>
 </section>
 
@@ -136,37 +136,37 @@
 <section class="section">
     <div class="container">
         <div class="section-title" data-aos="fade-up">
-            <h2>Sejarah & Misteri Liang Sipege</h2>
+            <h2>Tentang Panorama Sipinsur</h2>
             <div class="divider"></div>
         </div>
         <div class="sejarah-grid">
             <div class="sejarah-item" data-aos="fade-right">
                 <div class="sejarah-image">
-                    <img src="/image/Tuktuk/Tuktuk4.jpg" alt="Liang Sipege">
+                    <img src="/image/Tuktuk/Tuktuk1.jpg" alt="Panorama Sipinsur">
                 </div>
                 <div class="sejarah-text">
-                    <h3>Arti Nama dan Mitos Kuno</h3>
-                    <p>Liang Sipege memiliki arti "goa yang curam" atau "celah sempit" dalam bahasa Batak. Menurut tradisi lisan setempat, goa ini sempat dijadikan tempat bertapa (marhombung) bagi para raja dan tetua adat untuk mendapatkan petunjuk spiritual serta kekuatan supranatural.</p>
+                    <h3>Asal-Usul Nama Sipinsur</h3>
+                    <p>Sipinsur berasal dari bahasa Batak Toba yang secara harfiah merujuk pada tanah atau tebing tinggi yang curam dan menonjol. Lokasi ini sejak lama dimanfaatkan oleh warga sekitar sebagai viewpoint alami untuk memantau keadaan perairan danau di bawahnya sebelum bertransformasi menjadi destinasi wisata.</p>
                 </div>
             </div>
 
             <div class="sejarah-item reverse" data-aos="fade-left">
                 <div class="sejarah-image">
-                    <img src="/image/Tuktuk/Tuktuk8.jpg" alt="Eksplorasi Stalaktit">
+                    <img src="/image/Tomok/Tomok1.jpg" alt="Keindahan Alam Sipinsur">
                 </div>
                 <div class="sejarah-text">
-                    <h3>Proses Pembentukan Karst Ribuan Tahun</h3>
-                    <p>Lorong goa Liang Sipege terbentuk secara alami melalui proses pelarutan batuan kapur (karstifikasi) oleh tetesan dan aliran air bawah tanah selama puluhan ribu tahun. Aktivitas air lambat laun mengendapkan kalsit sehingga melahirkan stalaktit dan stalakmit yang sangat indah.</p>
+                    <h3>Puncak Viewpoint Kaldera Toba</h3>
+                    <p>Dari ketinggian 1.297 mdpl, Panorama Sipinsur menyuguhkan pemandangan 360 derajat perairan Danau Toba yang biru berkilau, berpadu dengan kemegahan Pulau Samosir dan Pulau Sibandang di kejauhan. Keunikan lanskap inilah yang dinobatkan sebagai salah satu viewpoint terbaik di wilayah Kaldera Toba.</p>
                 </div>
             </div>
 
             <div class="sejarah-item" data-aos="fade-right">
                 <div class="sejarah-image">
-                    <img src="/image/Tuktuk/destinasi-alam.jpg" alt="Ekowisata Caving">
+                    <img src="/image/Tuktuk/destinasi-alam.jpg" alt="UNESCO Geopark Site">
                 </div>
                 <div class="sejarah-text">
-                    <h3>Destinasi Ekowisata Petualangan</h3>
-                    <p>Situs Liang Sipege menjadi magnet utama bagi para penelusur goa (caving) dan ilmuwan kebumian yang mempelajari geologi Kaldera Toba. Lorong goanya yang eksotis menyuguhkan tantangan petualangan serta keindahan ornamen goa alami yang masih terjaga.</p>
+                    <h3>Bagian UNESCO Global Geopark</h3>
+                    <p>Sebagai situs penting warisan geologi Toba, Sipinsur dikelola secara berkelanjutan untuk melestarikan lingkungan alam dan budayanya. Menjadi bagian dari UNESCO Global Geopark sejak tahun 2020 mempertegas status internasional kawasan wisata alam andalan Humbang Hasundutan ini.</p>
                 </div>
             </div>
         </div>
@@ -177,30 +177,30 @@
 <section class="section bg-light">
     <div class="container">
         <div class="section-title" data-aos="fade-up">
-            <h2>Perjalanan Liang Sipege</h2>
+            <h2>Garis Waktu Panorama Sipinsur</h2>
             <div class="divider"></div>
-            <p>Perkembangan gua alam dari situs bersejarah Batak hingga cagar geopark dunia</p>
+            <p>Sejarah pembentukan lanskap alam hingga menjadi destinasi internasional</p>
         </div>
         <div class="timeline">
             <div class="timeline-item" data-aos="fade-up">
                 <div class="timeline-year">74.000 SM</div>
-                <div class="timeline-title">Terbentuknya Batuan</div>
-                <div class="timeline-desc">Letusan supervolcano Toba membentuk bebatuan dasar yang nantinya menjadi tempat terbentuknya Liang Sipege</div>
+                <div class="timeline-title">Letusan Gunung Api Toba</div>
+                <div class="timeline-desc">Letusan supervolcano Toba membentuk kaldera besar yang menjadi cikal bakal tebing tinggi Sipinsur</div>
             </div>
             <div class="timeline-item" data-aos="fade-up" data-aos-delay="50">
-                <div class="timeline-year">Abad ke-19</div>
-                <div class="timeline-title">Tempat Pertapaan Raja</div>
-                <div class="timeline-desc">Digunakan oleh raja-raja Batak setempat sebagai lokasi pengasingan diri yang sakral untuk ritual spiritual</div>
+                <div class="timeline-year">Era Kolonial</div>
+                <div class="timeline-title">Titik Pantau Alami</div>
+                <div class="timeline-desc">Digunakan oleh penduduk setempat dan pos pengamatan karena posisinya yang sangat strategis dan tinggi</div>
             </div>
             <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
                 <div class="timeline-year">2020</div>
-                <div class="timeline-title">Warisan Geologi Dunia</div>
-                <div class="timeline-desc">Diakui secara resmi sebagai salah satu geosite penting di bawah jaringan UNESCO Global Geopark Kaldera Toba</div>
+                <div class="timeline-title">UNESCO Global Geopark</div>
+                <div class="timeline-desc">Situs Panorama Sipinsur resmi masuk ke dalam daftar Geosite UNESCO Global Geopark Kaldera Toba</div>
             </div>
             <div class="timeline-item" data-aos="fade-up" data-aos-delay="150">
                 <div class="timeline-year">Kini</div>
-                <div class="timeline-title">Destinasi Edukasi & Caving</div>
-                <div class="timeline-desc">Dikembangkan sebagai lokasi penelusuran goa berpemandu, penelitian biospeologi, dan ekowisata minat khusus</div>
+                <div class="timeline-title">Ekowisata Andalan</div>
+                <div class="timeline-desc">Menjadi destinasi wisata alam terpopuler yang dikunjungi ribuan wisatawan domestik dan mancanegara</div>
             </div>
         </div>
     </div>
@@ -210,27 +210,27 @@
 <section class="section">
     <div class="container">
         <div class="section-title" data-aos="fade-up">
-            <h2>Fakta Unik Liang Sipege</h2>
+            <h2>Fakta Menarik Panorama Sipinsur</h2>
             <div class="divider"></div>
         </div>
         <div class="fakta-grid">
             <div class="fakta-card" data-aos="fade-up">
-                <div class="fakta-icon">🦇</div>
-                <div class="fakta-number">150</div>
-                <div class="fakta-title">Meter Panjang Goa</div>
-                <div class="fakta-desc">Memiliki lorong goa sepanjang kurang lebih 150 meter yang dihuni ekosistem fauna goa yang unik seperti kelelawar</div>
+                <div class="fakta-icon">🏔️</div>
+                <div class="fakta-number">1.297</div>
+                <div class="fakta-title">Meter di Atas Laut</div>
+                <div class="fakta-desc">Ketinggian puncak Sipinsur menghasilkan hawa dingin yang sejuk berkisar antara 18°C hingga 22°C</div>
             </div>
             <div class="fakta-card" data-aos="fade-up" data-aos-delay="50">
-                <div class="fakta-icon">💎</div>
-                <div class="fakta-number">10+</div>
-                <div class="fakta-title">Stalaktit Aktif Raksasa</div>
-                <div class="fakta-desc">Terdapat pilar batuan stalaktit kalsit raksasa yang masih terus tumbuh melalui tetesan air mineral murni</div>
+                <div class="fakta-icon">🏞️</div>
+                <div class="fakta-number">2</div>
+                <div class="fakta-title">Pulau Terlihat Jelas</div>
+                <div class="fakta-desc">Dari bibir tebing Sipinsur, Anda dapat melihat Pulau Samosir dan Pulau Sibandang secara bersamaan</div>
             </div>
             <div class="fakta-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="fakta-icon">🧘</div>
-                <div class="fakta-number">1</div>
-                <div class="fakta-title">Ruang Pertapaan Utama</div>
-                <div class="fakta-desc">Terdapat bilik batu hening di dalam goa yang dahulunya dipercaya merupakan kamar khusus semadi para leluhur</div>
+                <div class="fakta-icon">🌲</div>
+                <div class="fakta-number">10+</div>
+                <div class="fakta-title">Hektar Area Wisata</div>
+                <div class="fakta-desc">Kawasan wisata terintegrasi yang mencakup taman bermain, spot foto tebing, hutan pinus, dan camping ground</div>
             </div>
         </div>
     </div>
@@ -240,9 +240,9 @@
 <section class="cta-section">
     <div class="container">
         <div class="cta-content" data-aos="fade-up">
-            <h3>Jelajahi Misteri Liang Sipege</h3>
+            <h3>Kunjungi Panorama Sipinsur</h3>
             <div class="divider"></div>
-            <p>Masuki petualangan seru menelusuri keindahan tersembunyi bawah tanah di Geosite Liang Sipege</p>
+            <p>Saksikan langsung kemegahan ciptaan alam Kaldera Toba dan nikmati kesegaran udara pegunungan di Sipinsur</p>
             <a href="{{ url('/') }}" class="cta-btn">Kembali ke Beranda</a>
         </div>
     </div>
