@@ -1182,7 +1182,7 @@
                     <img src="/image/sipinsur/budaya.jpg" alt="Budaya Batak Sipinsur">
                 </div>
                 <div class="destinasi-content">
-                    <div class="destinasi-number">03 — BUDAYA Batak</div>
+                    <div class="destinasi-number">03 — BUDAYA</div>
                     <h3>Warisan Budaya Batak</h3>
                     <div class="destinasi-location">Desa Pearung, Humbang Hasundutan</div>
                     <p class="destinasi-desc">Kenali kekayaan budaya Batak Toba yang masih terjaga di sekitar Geosite Sipinsur. Mulai dari arsitektur rumah adat, kerajinan tangan, hingga tradisi dan adat istiadat yang diwariskan turun-temurun.</p>
