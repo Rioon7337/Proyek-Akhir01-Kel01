@@ -9,6 +9,7 @@
         height: 55vh;
         min-height: 360px;
         background: linear-gradient(rgba(0, 51, 102, 0.6), rgba(0, 102, 153, 0.4)), url('/image/Sipinsur/sipinsur.jpg') center/cover no-repeat;
+        background-position: bottom 40%;
         display: flex;
         align-items: center;
         justify-content: center;
