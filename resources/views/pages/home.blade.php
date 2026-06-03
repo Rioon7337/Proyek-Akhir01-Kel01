@@ -1085,7 +1085,7 @@
     
     <div class="hero-content">
         <div>
-            <div class="hero-subtitle">Global Geopark Caldera Toba</div>
+            <div class="hero-subtitle">Global Geopark Caldera Toba HOHOHO</div>
             <h1 class="hero-title"> Sipinsur</h1>
             <div class="hero-divider"></div>
             <a href="#destinasi" class="hero-btn">Jelajahi Sekarang</a>
